@@ -1,7 +1,7 @@
 import Head from "next/head";
-import { GalleryBgr } from "../components/Gallery";
+import { GunungPncr } from "../../components/LocBogor";
 
-import Layout from "../components/Layout";
+import Layout from "../../components/Layout";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <GalleryBgr />
+        <GunungPncr />
       </Layout>
     </>
   );

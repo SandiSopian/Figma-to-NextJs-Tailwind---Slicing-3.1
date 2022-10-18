@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { TamanRyDj } from "../../components/LocBandung";
+import { TirtaSC } from "../../components/LocBogor";
 
 import Layout from "../../components/Layout";
 
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <TamanRyDj />
+        <TirtaSC />
       </Layout>
     </>
   );
