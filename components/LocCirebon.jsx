@@ -1,14 +1,14 @@
 import uniqid from "uniqid";
 import React from "react";
-import { bandung } from "../public/data";
+import { cirebon } from "../public/data";
 import { LightgalleryItem } from "react-lightgallery";
 import Image from "next/image";
 
-// Curug Dago
-export function CurugDg() {
+// Hutan Kera Plangon
+export function HutanKP() {
   return (
     <section>
-      {bandung.map((location) => {
+      {cirebon.map((location) => {
         return (
           <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
             <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
@@ -19,10 +19,10 @@ export function CurugDg() {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img1}>
+                <LightgalleryItem key="uniqid" src={location.hutanKP.img1}>
                   <Image
-                    src={location.curugDg.img1}
-                    alt={location.curugDg.name}
+                    src={location.hutanKP.img1}
+                    alt={location.hutanKP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -31,10 +31,10 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img2}>
+                <LightgalleryItem key="uniqid" src={location.hutanKP.img2}>
                   <Image
-                    src={location.curugDg.img2}
-                    alt={location.curugDg.name}
+                    src={location.hutanKP.img2}
+                    alt={location.hutanKP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -43,10 +43,10 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img3}>
+                <LightgalleryItem key="uniqid" src={location.hutanKP.img3}>
                   <Image
-                    src={location.curugDg.img3}
-                    alt={location.curugDg.name}
+                    src={location.hutanKP.img3}
+                    alt={location.hutanKP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -55,10 +55,10 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img4}>
+                <LightgalleryItem key="uniqid" src={location.hutanKP.img4}>
                   <Image
-                    src={location.curugDg.img4}
-                    alt={location.curugDg.name}
+                    src={location.hutanKP.img4}
+                    alt={location.hutanKP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -67,10 +67,10 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img5}>
+                <LightgalleryItem key="uniqid" src={location.hutanKP.img5}>
                   <Image
-                    src={location.curugDg.img5}
-                    alt={location.curugDg.name}
+                    src={location.hutanKP.img5}
+                    alt={location.hutanKP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -79,10 +79,10 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img6}>
+                <LightgalleryItem key="uniqid" src={location.hutanKP.img6}>
                   <Image
-                    src={location.curugDg.img6}
-                    alt={location.curugDg.name}
+                    src={location.hutanKP.img6}
+                    alt={location.hutanKP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -91,10 +91,10 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img7}>
+                <LightgalleryItem key="uniqid" src={location.hutanKP.img7}>
                   <Image
-                    src={location.curugDg.img7}
-                    alt={location.curugDg.name}
+                    src={location.hutanKP.img7}
+                    alt={location.hutanKP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -103,10 +103,10 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img8}>
+                <LightgalleryItem key="uniqid" src={location.hutanKP.img8}>
                   <Image
-                    src={location.curugDg.img8}
-                    alt={location.curugDg.name}
+                    src={location.hutanKP.img8}
+                    alt={location.hutanKP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -115,10 +115,10 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img9}>
+                <LightgalleryItem key="uniqid" src={location.hutanKP.img9}>
                   <Image
-                    src={location.curugDg.img9}
-                    alt={location.curugDg.name}
+                    src={location.hutanKP.img9}
+                    alt={location.hutanKP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -127,10 +127,10 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img10}>
+                <LightgalleryItem key="uniqid" src={location.hutanKP.img10}>
                   <Image
-                    src={location.curugDg.img10}
-                    alt={location.curugDg.name}
+                    src={location.hutanKP.img10}
+                    alt={location.hutanKP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -146,11 +146,11 @@ export function CurugDg() {
   );
 }
 
-// Gedung Sate
-export function GedungSt() {
+// Makam Sunan Gunung Jati
+export function MakamSGJ() {
   return (
     <section>
-      {bandung.map((location) => {
+      {cirebon.map((location) => {
         return (
           <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
             <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
@@ -161,152 +161,10 @@ export function GedungSt() {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img1}>
+                <LightgalleryItem key="uniqid" src={location.makamSGJ.img1}>
                   <Image
-                    src={location.gedungSt.img1}
-                    alt={location.gedungSt.name}
-                    width={600}
-                    height={400}
-                    objectFit="cover"
-                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer "
-                  />
-                </LightgalleryItem>
-              </div>
-              <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img2}>
-                  <Image
-                    src={location.gedungSt.img2}
-                    alt={location.gedungSt.name}
-                    width={600}
-                    height={400}
-                    objectFit="cover"
-                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer "
-                  />
-                </LightgalleryItem>
-              </div>
-              <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img3}>
-                  <Image
-                    src={location.gedungSt.img3}
-                    alt={location.gedungSt.name}
-                    width={600}
-                    height={400}
-                    objectFit="cover"
-                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer "
-                  />
-                </LightgalleryItem>
-              </div>
-              <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img4}>
-                  <Image
-                    src={location.gedungSt.img4}
-                    alt={location.gedungSt.name}
-                    width={600}
-                    height={400}
-                    objectFit="cover"
-                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer "
-                  />
-                </LightgalleryItem>
-              </div>
-              <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img5}>
-                  <Image
-                    src={location.gedungSt.img5}
-                    alt={location.gedungSt.name}
-                    width={600}
-                    height={400}
-                    objectFit="cover"
-                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer "
-                  />
-                </LightgalleryItem>
-              </div>
-              <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img6}>
-                  <Image
-                    src={location.gedungSt.img6}
-                    alt={location.gedungSt.name}
-                    width={600}
-                    height={400}
-                    objectFit="cover"
-                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer "
-                  />
-                </LightgalleryItem>
-              </div>
-              <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img7}>
-                  <Image
-                    src={location.gedungSt.img7}
-                    alt={location.gedungSt.name}
-                    width={600}
-                    height={400}
-                    objectFit="cover"
-                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer "
-                  />
-                </LightgalleryItem>
-              </div>
-              <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img8}>
-                  <Image
-                    src={location.gedungSt.img8}
-                    alt={location.gedungSt.name}
-                    width={600}
-                    height={400}
-                    objectFit="cover"
-                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer "
-                  />
-                </LightgalleryItem>
-              </div>
-              <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img9}>
-                  <Image
-                    src={location.gedungSt.img9}
-                    alt={location.gedungSt.name}
-                    width={600}
-                    height={400}
-                    objectFit="cover"
-                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer "
-                  />
-                </LightgalleryItem>
-              </div>
-              <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img10}>
-                  <Image
-                    src={location.gedungSt.img10}
-                    alt={location.gedungSt.name}
-                    width={600}
-                    height={400}
-                    objectFit="cover"
-                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer "
-                  />
-                </LightgalleryItem>
-              </div>
-            </div>
-          </div>
-        );
-      })}
-    </section>
-  );
-}
-
-// Jalan Braga
-export function JalanBrg() {
-  return (
-    <section>
-      {bandung.map((location) => {
-        return (
-          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
-            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
-                deleniti repellat.
-              </p>
-            </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
-              <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img1}>
-                  <Image
-                    src={location.jalanBrg.img1}
-                    alt={location.jalanBrg.name}
+                    src={location.makamSGJ.img1}
+                    alt={location.makamSGJ.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -315,10 +173,10 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img2}>
+                <LightgalleryItem key="uniqid" src={location.makamSGJ.img2}>
                   <Image
-                    src={location.jalanBrg.img2}
-                    alt={location.jalanBrg.name}
+                    src={location.makamSGJ.img2}
+                    alt={location.makamSGJ.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -327,10 +185,10 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img3}>
+                <LightgalleryItem key="uniqid" src={location.makamSGJ.img3}>
                   <Image
-                    src={location.jalanBrg.img3}
-                    alt={location.jalanBrg.name}
+                    src={location.makamSGJ.img3}
+                    alt={location.makamSGJ.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -339,10 +197,10 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img4}>
+                <LightgalleryItem key="uniqid" src={location.makamSGJ.img4}>
                   <Image
-                    src={location.jalanBrg.img4}
-                    alt={location.jalanBrg.name}
+                    src={location.makamSGJ.img4}
+                    alt={location.makamSGJ.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -351,10 +209,10 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img5}>
+                <LightgalleryItem key="uniqid" src={location.makamSGJ.img5}>
                   <Image
-                    src={location.jalanBrg.img5}
-                    alt={location.jalanBrg.name}
+                    src={location.makamSGJ.img5}
+                    alt={location.makamSGJ.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -363,10 +221,10 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img6}>
+                <LightgalleryItem key="uniqid" src={location.makamSGJ.img6}>
                   <Image
-                    src={location.jalanBrg.img6}
-                    alt={location.jalanBrg.name}
+                    src={location.makamSGJ.img6}
+                    alt={location.makamSGJ.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -375,10 +233,10 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img7}>
+                <LightgalleryItem key="uniqid" src={location.makamSGJ.img7}>
                   <Image
-                    src={location.jalanBrg.img7}
-                    alt={location.jalanBrg.name}
+                    src={location.makamSGJ.img7}
+                    alt={location.makamSGJ.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -387,10 +245,10 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img8}>
+                <LightgalleryItem key="uniqid" src={location.makamSGJ.img8}>
                   <Image
-                    src={location.jalanBrg.img8}
-                    alt={location.jalanBrg.name}
+                    src={location.makamSGJ.img8}
+                    alt={location.makamSGJ.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -399,10 +257,10 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img9}>
+                <LightgalleryItem key="uniqid" src={location.makamSGJ.img9}>
                   <Image
-                    src={location.jalanBrg.img9}
-                    alt={location.jalanBrg.name}
+                    src={location.makamSGJ.img9}
+                    alt={location.makamSGJ.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -411,10 +269,10 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img10}>
+                <LightgalleryItem key="uniqid" src={location.makamSGJ.img10}>
                   <Image
-                    src={location.jalanBrg.img10}
-                    alt={location.jalanBrg.name}
+                    src={location.makamSGJ.img10}
+                    alt={location.makamSGJ.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -430,11 +288,11 @@ export function JalanBrg() {
   );
 }
 
-// Kawah Gunung Tangkuban Perahu
-export function TangkubanPrh() {
+// Setu Patok
+export function SetuP() {
   return (
     <section>
-      {bandung.map((location) => {
+      {cirebon.map((location) => {
         return (
           <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
             <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
@@ -445,10 +303,10 @@ export function TangkubanPrh() {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img1}>
+                <LightgalleryItem key="uniqid" src={location.setuP.img1}>
                   <Image
-                    src={location.tangkubanPrh.img1}
-                    alt={location.tangkubanPrh.name}
+                    src={location.setuP.img1}
+                    alt={location.setuP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -457,10 +315,10 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img2}>
+                <LightgalleryItem key="uniqid" src={location.setuP.img2}>
                   <Image
-                    src={location.tangkubanPrh.img2}
-                    alt={location.tangkubanPrh.name}
+                    src={location.setuP.img2}
+                    alt={location.setuP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -469,10 +327,10 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img3}>
+                <LightgalleryItem key="uniqid" src={location.setuP.img3}>
                   <Image
-                    src={location.tangkubanPrh.img3}
-                    alt={location.tangkubanPrh.name}
+                    src={location.setuP.img3}
+                    alt={location.setuP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -481,10 +339,10 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img4}>
+                <LightgalleryItem key="uniqid" src={location.setuP.img4}>
                   <Image
-                    src={location.tangkubanPrh.img4}
-                    alt={location.tangkubanPrh.name}
+                    src={location.setuP.img4}
+                    alt={location.setuP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -493,10 +351,10 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img5}>
+                <LightgalleryItem key="uniqid" src={location.setuP.img5}>
                   <Image
-                    src={location.tangkubanPrh.img5}
-                    alt={location.tangkubanPrh.name}
+                    src={location.setuP.img5}
+                    alt={location.setuP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -505,10 +363,10 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img6}>
+                <LightgalleryItem key="uniqid" src={location.setuP.img6}>
                   <Image
-                    src={location.tangkubanPrh.img6}
-                    alt={location.tangkubanPrh.name}
+                    src={location.setuP.img6}
+                    alt={location.setuP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -517,10 +375,10 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img7}>
+                <LightgalleryItem key="uniqid" src={location.setuP.img7}>
                   <Image
-                    src={location.tangkubanPrh.img7}
-                    alt={location.tangkubanPrh.name}
+                    src={location.setuP.img7}
+                    alt={location.setuP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -529,10 +387,10 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img8}>
+                <LightgalleryItem key="uniqid" src={location.setuP.img8}>
                   <Image
-                    src={location.tangkubanPrh.img8}
-                    alt={location.tangkubanPrh.name}
+                    src={location.setuP.img8}
+                    alt={location.setuP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -541,10 +399,10 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img9}>
+                <LightgalleryItem key="uniqid" src={location.setuP.img9}>
                   <Image
-                    src={location.tangkubanPrh.img9}
-                    alt={location.tangkubanPrh.name}
+                    src={location.setuP.img9}
+                    alt={location.setuP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -553,10 +411,10 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img10}>
+                <LightgalleryItem key="uniqid" src={location.setuP.img10}>
                   <Image
-                    src={location.tangkubanPrh.img10}
-                    alt={location.tangkubanPrh.name}
+                    src={location.setuP.img10}
+                    alt={location.setuP.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -572,11 +430,11 @@ export function TangkubanPrh() {
   );
 }
 
-// Taman Hutan Raya Djuanda
-export function TamanRyDj() {
+// Taman Wisata Goa Sunyaragi
+export function TamanWGS() {
   return (
     <section>
-      {bandung.map((location) => {
+      {cirebon.map((location) => {
         return (
           <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
             <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
@@ -587,10 +445,10 @@ export function TamanRyDj() {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img1}>
+                <LightgalleryItem key="uniqid" src={location.tamanWGS.img1}>
                   <Image
-                    src={location.tamanRyDj.img1}
-                    alt={location.tamanRyDj.name}
+                    src={location.tamanWGS.img1}
+                    alt={location.tamanWGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -599,10 +457,10 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img2}>
+                <LightgalleryItem key="uniqid" src={location.tamanWGS.img2}>
                   <Image
-                    src={location.tamanRyDj.img2}
-                    alt={location.tamanRyDj.name}
+                    src={location.tamanWGS.img2}
+                    alt={location.tamanWGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -611,10 +469,10 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img3}>
+                <LightgalleryItem key="uniqid" src={location.tamanWGS.img3}>
                   <Image
-                    src={location.tamanRyDj.img3}
-                    alt={location.tamanRyDj.name}
+                    src={location.tamanWGS.img3}
+                    alt={location.tamanWGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -623,10 +481,10 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img4}>
+                <LightgalleryItem key="uniqid" src={location.tamanWGS.img4}>
                   <Image
-                    src={location.tamanRyDj.img4}
-                    alt={location.tamanRyDj.name}
+                    src={location.tamanWGS.img4}
+                    alt={location.tamanWGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -635,10 +493,10 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img5}>
+                <LightgalleryItem key="uniqid" src={location.tamanWGS.img5}>
                   <Image
-                    src={location.tamanRyDj.img5}
-                    alt={location.tamanRyDj.name}
+                    src={location.tamanWGS.img5}
+                    alt={location.tamanWGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -647,10 +505,10 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img6}>
+                <LightgalleryItem key="uniqid" src={location.tamanWGS.img6}>
                   <Image
-                    src={location.tamanRyDj.img6}
-                    alt={location.tamanRyDj.name}
+                    src={location.tamanWGS.img6}
+                    alt={location.tamanWGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -659,10 +517,10 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img7}>
+                <LightgalleryItem key="uniqid" src={location.tamanWGS.img7}>
                   <Image
-                    src={location.tamanRyDj.img7}
-                    alt={location.tamanRyDj.name}
+                    src={location.tamanWGS.img7}
+                    alt={location.tamanWGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -671,10 +529,10 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img8}>
+                <LightgalleryItem key="uniqid" src={location.tamanWGS.img8}>
                   <Image
-                    src={location.tamanRyDj.img8}
-                    alt={location.tamanRyDj.name}
+                    src={location.tamanWGS.img8}
+                    alt={location.tamanWGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -683,10 +541,10 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img9}>
+                <LightgalleryItem key="uniqid" src={location.tamanWGS.img9}>
                   <Image
-                    src={location.tamanRyDj.img9}
-                    alt={location.tamanRyDj.name}
+                    src={location.tamanWGS.img9}
+                    alt={location.tamanWGS.name}
                     width={600}
                     height={400}
                     objectFit="cover"
@@ -695,10 +553,152 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img10}>
+                <LightgalleryItem key="uniqid" src={location.tamanWGS.img10}>
                   <Image
-                    src={location.tamanRyDj.img10}
-                    alt={location.tamanRyDj.name}
+                    src={location.tamanWGS.img10}
+                    alt={location.tamanWGS.name}
+                    width={600}
+                    height={400}
+                    objectFit="cover"
+                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer"
+                  />
+                </LightgalleryItem>
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </section>
+  );
+}
+
+// Wisata Kura-Kura Belawa
+export function WisataKKB() {
+  return (
+    <section>
+      {cirebon.map((location) => {
+        return (
+          <div className="pt-12 sm:pt-16 lg:pt-20 mx-auto ">
+            <div className="font-light border-b border-gray-400 p-3 md:p-2 mx-auto leading-relaxed text-justify">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias distinctio delectus fugit quaerat officia? Repudiandae, tenetur? Impedit dolorem est minima itaque quasi molestias praesentium eaque harum cumque. At,
+                deleniti repellat.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
+              <div className="w-full">
+                <LightgalleryItem key="uniqid" src={location.wisataKKB.img1}>
+                  <Image
+                    src={location.wisataKKB.img1}
+                    alt={location.wisataKKB.name}
+                    width={600}
+                    height={400}
+                    objectFit="cover"
+                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer"
+                  />
+                </LightgalleryItem>
+              </div>
+              <div className="w-full">
+                <LightgalleryItem key="uniqid" src={location.wisataKKB.img2}>
+                  <Image
+                    src={location.wisataKKB.img2}
+                    alt={location.wisataKKB.name}
+                    width={600}
+                    height={400}
+                    objectFit="cover"
+                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer"
+                  />
+                </LightgalleryItem>
+              </div>
+              <div className="w-full">
+                <LightgalleryItem key="uniqid" src={location.wisataKKB.img3}>
+                  <Image
+                    src={location.wisataKKB.img3}
+                    alt={location.wisataKKB.name}
+                    width={600}
+                    height={400}
+                    objectFit="cover"
+                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer"
+                  />
+                </LightgalleryItem>
+              </div>
+              <div className="w-full">
+                <LightgalleryItem key="uniqid" src={location.wisataKKB.img4}>
+                  <Image
+                    src={location.wisataKKB.img4}
+                    alt={location.wisataKKB.name}
+                    width={600}
+                    height={400}
+                    objectFit="cover"
+                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer"
+                  />
+                </LightgalleryItem>
+              </div>
+              <div className="w-full">
+                <LightgalleryItem key="uniqid" src={location.wisataKKB.img5}>
+                  <Image
+                    src={location.wisataKKB.img5}
+                    alt={location.wisataKKB.name}
+                    width={600}
+                    height={400}
+                    objectFit="cover"
+                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer"
+                  />
+                </LightgalleryItem>
+              </div>
+              <div className="w-full">
+                <LightgalleryItem key="uniqid" src={location.wisataKKB.img6}>
+                  <Image
+                    src={location.wisataKKB.img6}
+                    alt={location.wisataKKB.name}
+                    width={600}
+                    height={400}
+                    objectFit="cover"
+                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer"
+                  />
+                </LightgalleryItem>
+              </div>
+              <div className="w-full">
+                <LightgalleryItem key="uniqid" src={location.wisataKKB.img7}>
+                  <Image
+                    src={location.wisataKKB.img7}
+                    alt={location.wisataKKB.name}
+                    width={600}
+                    height={400}
+                    objectFit="cover"
+                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer"
+                  />
+                </LightgalleryItem>
+              </div>
+              <div className="w-full">
+                <LightgalleryItem key="uniqid" src={location.wisataKKB.img8}>
+                  <Image
+                    src={location.wisataKKB.img8}
+                    alt={location.wisataKKB.name}
+                    width={600}
+                    height={400}
+                    objectFit="cover"
+                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer"
+                  />
+                </LightgalleryItem>
+              </div>
+              <div className="w-full">
+                <LightgalleryItem key="uniqid" src={location.wisataKKB.img9}>
+                  <Image
+                    src={location.wisataKKB.img9}
+                    alt={location.wisataKKB.name}
+                    width={600}
+                    height={400}
+                    objectFit="cover"
+                    className="w-full aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden rounded-lg hover:scale-110 transition-all duration-9000 shadow-sm cursor-pointer"
+                  />
+                </LightgalleryItem>
+              </div>
+              <div className="w-full">
+                <LightgalleryItem key="uniqid" src={location.wisataKKB.img10}>
+                  <Image
+                    src={location.wisataKKB.img10}
+                    alt={location.wisataKKB.name}
                     width={600}
                     height={400}
                     objectFit="cover"

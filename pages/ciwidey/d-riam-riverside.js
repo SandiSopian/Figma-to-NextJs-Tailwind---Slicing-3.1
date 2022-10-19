@@ -1,7 +1,7 @@
 import Head from "next/head";
-import { GalleryBdg } from "../components/Gallery";
+import { DRiamR } from "../../components/LocCiwidey";
 
-import Layout from "../components/Layout";
+import Layout from "../../components/Layout";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <GalleryBdg />
+        <DRiamR />
       </Layout>
     </>
   );

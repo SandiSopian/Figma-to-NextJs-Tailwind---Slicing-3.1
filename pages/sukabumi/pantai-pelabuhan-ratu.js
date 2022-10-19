@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { CurugLH } from "../../components/LocBogor";
+import { PantaiPR } from "../../components/LocSukabumi";
 
 import Layout from "../../components/Layout";
 
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <CurugLh />
+        <PantaiPR />
       </Layout>
     </>
   );

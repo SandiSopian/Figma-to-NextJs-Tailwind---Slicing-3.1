@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { CurugLH } from "../../components/LocBogor";
+import { MakamSGJ } from "../../components/LocCirebon";
 
 import Layout from "../../components/Layout";
 
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <CurugLh />
+        <MakamSGJ />
       </Layout>
     </>
   );

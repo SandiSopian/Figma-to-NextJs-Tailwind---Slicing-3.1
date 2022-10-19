@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { GalleryBdg } from "../../components/Gallery";
+import { KebunAI } from "../../components/LocCianjur";
 
 import Layout from "../../components/Layout";
 
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <GalleryBdg />
+        <KebunAI />
       </Layout>
     </>
   );
