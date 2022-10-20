@@ -2,7 +2,7 @@ import uniqid from "uniqid";
 import React from "react";
 import { garut } from "../public/data";
 import { LightgalleryItem } from "react-lightgallery";
-import Image from "next/Image";
+import Image from "next/image";
 
 // Curug Batu Nyusun
 export function CurugBN() {

@@ -2,7 +2,7 @@ import uniqid from "uniqid";
 import React from "react";
 import { ciwidey } from "../public/data";
 import { LightgalleryItem } from "react-lightgallery";
-import Image from "next/Image";
+import Image from "next/image";
 
 // Bukit Jamur
 export function BukitJ() {

@@ -2,7 +2,7 @@ import uniqid from "uniqid";
 import React from "react";
 import { purwakarta } from "../public/data";
 import { LightgalleryItem } from "react-lightgallery";
-import Image from "next/Image";
+import Image from "next/image";
 
 // Curug Cipurut
 export function CurugC() {

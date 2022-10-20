@@ -2,7 +2,7 @@ import uniqid from "uniqid";
 import React from "react";
 import { cianjur } from "../public/data";
 import { LightgalleryItem } from "react-lightgallery";
-import Image from "next/Image";
+import Image from "next/image";
 
 // Istana Presiden Cipanas
 export function IstanaPC() {
