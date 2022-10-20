@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <CurugLh />
+        <CurugLH />
       </Layout>
     </>
   );

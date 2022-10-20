@@ -19,8 +19,9 @@ export function CurugDg() {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img1}>
+                <LightgalleryItem src={location.curugDg.img1}>
                   <Image
+                    key={uniqid}
                     src={location.curugDg.img1}
                     alt={location.curugDg.name}
                     width={600}
@@ -31,8 +32,9 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img2}>
+                <LightgalleryItem src={location.curugDg.img2}>
                   <Image
+                    key={uniqid}
                     src={location.curugDg.img2}
                     alt={location.curugDg.name}
                     width={600}
@@ -43,8 +45,9 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img3}>
+                <LightgalleryItem src={location.curugDg.img3}>
                   <Image
+                    key={uniqid}
                     src={location.curugDg.img3}
                     alt={location.curugDg.name}
                     width={600}
@@ -55,8 +58,9 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img4}>
+                <LightgalleryItem src={location.curugDg.img4}>
                   <Image
+                    key={uniqid}
                     src={location.curugDg.img4}
                     alt={location.curugDg.name}
                     width={600}
@@ -67,8 +71,9 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img5}>
+                <LightgalleryItem src={location.curugDg.img5}>
                   <Image
+                    key={uniqid}
                     src={location.curugDg.img5}
                     alt={location.curugDg.name}
                     width={600}
@@ -79,8 +84,9 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img6}>
+                <LightgalleryItem src={location.curugDg.img6}>
                   <Image
+                    key={uniqid}
                     src={location.curugDg.img6}
                     alt={location.curugDg.name}
                     width={600}
@@ -91,8 +97,9 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img7}>
+                <LightgalleryItem src={location.curugDg.img7}>
                   <Image
+                    key={uniqid}
                     src={location.curugDg.img7}
                     alt={location.curugDg.name}
                     width={600}
@@ -103,8 +110,9 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img8}>
+                <LightgalleryItem src={location.curugDg.img8}>
                   <Image
+                    key={uniqid}
                     src={location.curugDg.img8}
                     alt={location.curugDg.name}
                     width={600}
@@ -115,8 +123,9 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img9}>
+                <LightgalleryItem src={location.curugDg.img9}>
                   <Image
+                    key={uniqid}
                     src={location.curugDg.img9}
                     alt={location.curugDg.name}
                     width={600}
@@ -127,8 +136,9 @@ export function CurugDg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.curugDg.img10}>
+                <LightgalleryItem src={location.curugDg.img10}>
                   <Image
+                    key={uniqid}
                     src={location.curugDg.img10}
                     alt={location.curugDg.name}
                     width={600}
@@ -161,8 +171,9 @@ export function GedungSt() {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img1}>
+                <LightgalleryItem src={location.gedungSt.img1}>
                   <Image
+                    key={uniqid}
                     src={location.gedungSt.img1}
                     alt={location.gedungSt.name}
                     width={600}
@@ -173,8 +184,9 @@ export function GedungSt() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img2}>
+                <LightgalleryItem src={location.gedungSt.img2}>
                   <Image
+                    key={uniqid}
                     src={location.gedungSt.img2}
                     alt={location.gedungSt.name}
                     width={600}
@@ -185,8 +197,9 @@ export function GedungSt() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img3}>
+                <LightgalleryItem src={location.gedungSt.img3}>
                   <Image
+                    key={uniqid}
                     src={location.gedungSt.img3}
                     alt={location.gedungSt.name}
                     width={600}
@@ -197,8 +210,9 @@ export function GedungSt() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img4}>
+                <LightgalleryItem src={location.gedungSt.img4}>
                   <Image
+                    key={uniqid}
                     src={location.gedungSt.img4}
                     alt={location.gedungSt.name}
                     width={600}
@@ -209,8 +223,9 @@ export function GedungSt() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img5}>
+                <LightgalleryItem src={location.gedungSt.img5}>
                   <Image
+                    key={uniqid}
                     src={location.gedungSt.img5}
                     alt={location.gedungSt.name}
                     width={600}
@@ -221,8 +236,9 @@ export function GedungSt() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img6}>
+                <LightgalleryItem src={location.gedungSt.img6}>
                   <Image
+                    key={uniqid}
                     src={location.gedungSt.img6}
                     alt={location.gedungSt.name}
                     width={600}
@@ -233,8 +249,9 @@ export function GedungSt() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img7}>
+                <LightgalleryItem src={location.gedungSt.img7}>
                   <Image
+                    key={uniqid}
                     src={location.gedungSt.img7}
                     alt={location.gedungSt.name}
                     width={600}
@@ -245,8 +262,9 @@ export function GedungSt() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img8}>
+                <LightgalleryItem src={location.gedungSt.img8}>
                   <Image
+                    key={uniqid}
                     src={location.gedungSt.img8}
                     alt={location.gedungSt.name}
                     width={600}
@@ -257,8 +275,9 @@ export function GedungSt() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img9}>
+                <LightgalleryItem src={location.gedungSt.img9}>
                   <Image
+                    key={uniqid}
                     src={location.gedungSt.img9}
                     alt={location.gedungSt.name}
                     width={600}
@@ -269,8 +288,9 @@ export function GedungSt() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.gedungSt.img10}>
+                <LightgalleryItem src={location.gedungSt.img10}>
                   <Image
+                    key={uniqid}
                     src={location.gedungSt.img10}
                     alt={location.gedungSt.name}
                     width={600}
@@ -303,8 +323,9 @@ export function JalanBrg() {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img1}>
+                <LightgalleryItem src={location.jalanBrg.img1}>
                   <Image
+                    key={uniqid}
                     src={location.jalanBrg.img1}
                     alt={location.jalanBrg.name}
                     width={600}
@@ -315,8 +336,9 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img2}>
+                <LightgalleryItem src={location.jalanBrg.img2}>
                   <Image
+                    key={uniqid}
                     src={location.jalanBrg.img2}
                     alt={location.jalanBrg.name}
                     width={600}
@@ -327,8 +349,9 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img3}>
+                <LightgalleryItem src={location.jalanBrg.img3}>
                   <Image
+                    key={uniqid}
                     src={location.jalanBrg.img3}
                     alt={location.jalanBrg.name}
                     width={600}
@@ -339,8 +362,9 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img4}>
+                <LightgalleryItem src={location.jalanBrg.img4}>
                   <Image
+                    key={uniqid}
                     src={location.jalanBrg.img4}
                     alt={location.jalanBrg.name}
                     width={600}
@@ -351,8 +375,9 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img5}>
+                <LightgalleryItem src={location.jalanBrg.img5}>
                   <Image
+                    key={uniqid}
                     src={location.jalanBrg.img5}
                     alt={location.jalanBrg.name}
                     width={600}
@@ -363,8 +388,9 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img6}>
+                <LightgalleryItem src={location.jalanBrg.img6}>
                   <Image
+                    key={uniqid}
                     src={location.jalanBrg.img6}
                     alt={location.jalanBrg.name}
                     width={600}
@@ -375,8 +401,9 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img7}>
+                <LightgalleryItem src={location.jalanBrg.img7}>
                   <Image
+                    key={uniqid}
                     src={location.jalanBrg.img7}
                     alt={location.jalanBrg.name}
                     width={600}
@@ -387,8 +414,9 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img8}>
+                <LightgalleryItem src={location.jalanBrg.img8}>
                   <Image
+                    key={uniqid}
                     src={location.jalanBrg.img8}
                     alt={location.jalanBrg.name}
                     width={600}
@@ -399,8 +427,9 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img9}>
+                <LightgalleryItem src={location.jalanBrg.img9}>
                   <Image
+                    key={uniqid}
                     src={location.jalanBrg.img9}
                     alt={location.jalanBrg.name}
                     width={600}
@@ -411,8 +440,9 @@ export function JalanBrg() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.jalanBrg.img10}>
+                <LightgalleryItem src={location.jalanBrg.img10}>
                   <Image
+                    key={uniqid}
                     src={location.jalanBrg.img10}
                     alt={location.jalanBrg.name}
                     width={600}
@@ -445,8 +475,9 @@ export function TangkubanPrh() {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img1}>
+                <LightgalleryItem src={location.tangkubanPrh.img1}>
                   <Image
+                    key={uniqid}
                     src={location.tangkubanPrh.img1}
                     alt={location.tangkubanPrh.name}
                     width={600}
@@ -457,8 +488,9 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img2}>
+                <LightgalleryItem src={location.tangkubanPrh.img2}>
                   <Image
+                    key={uniqid}
                     src={location.tangkubanPrh.img2}
                     alt={location.tangkubanPrh.name}
                     width={600}
@@ -469,8 +501,9 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img3}>
+                <LightgalleryItem src={location.tangkubanPrh.img3}>
                   <Image
+                    key={uniqid}
                     src={location.tangkubanPrh.img3}
                     alt={location.tangkubanPrh.name}
                     width={600}
@@ -481,8 +514,9 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img4}>
+                <LightgalleryItem src={location.tangkubanPrh.img4}>
                   <Image
+                    key={uniqid}
                     src={location.tangkubanPrh.img4}
                     alt={location.tangkubanPrh.name}
                     width={600}
@@ -493,8 +527,9 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img5}>
+                <LightgalleryItem src={location.tangkubanPrh.img5}>
                   <Image
+                    key={uniqid}
                     src={location.tangkubanPrh.img5}
                     alt={location.tangkubanPrh.name}
                     width={600}
@@ -505,8 +540,9 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img6}>
+                <LightgalleryItem src={location.tangkubanPrh.img6}>
                   <Image
+                    key={uniqid}
                     src={location.tangkubanPrh.img6}
                     alt={location.tangkubanPrh.name}
                     width={600}
@@ -517,8 +553,9 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img7}>
+                <LightgalleryItem src={location.tangkubanPrh.img7}>
                   <Image
+                    key={uniqid}
                     src={location.tangkubanPrh.img7}
                     alt={location.tangkubanPrh.name}
                     width={600}
@@ -529,8 +566,9 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img8}>
+                <LightgalleryItem src={location.tangkubanPrh.img8}>
                   <Image
+                    key={uniqid}
                     src={location.tangkubanPrh.img8}
                     alt={location.tangkubanPrh.name}
                     width={600}
@@ -541,8 +579,9 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img9}>
+                <LightgalleryItem src={location.tangkubanPrh.img9}>
                   <Image
+                    key={uniqid}
                     src={location.tangkubanPrh.img9}
                     alt={location.tangkubanPrh.name}
                     width={600}
@@ -553,8 +592,9 @@ export function TangkubanPrh() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tangkubanPrh.img10}>
+                <LightgalleryItem src={location.tangkubanPrh.img10}>
                   <Image
+                    key={uniqid}
                     src={location.tangkubanPrh.img10}
                     alt={location.tangkubanPrh.name}
                     width={600}
@@ -587,8 +627,9 @@ export function TamanRyDj() {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 sm:mx-6 md:mx-2 my-5 gap-2">
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img1}>
+                <LightgalleryItem src={location.tamanRyDj.img1}>
                   <Image
+                    key={uniqid}
                     src={location.tamanRyDj.img1}
                     alt={location.tamanRyDj.name}
                     width={600}
@@ -599,8 +640,9 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img2}>
+                <LightgalleryItem src={location.tamanRyDj.img2}>
                   <Image
+                    key={uniqid}
                     src={location.tamanRyDj.img2}
                     alt={location.tamanRyDj.name}
                     width={600}
@@ -611,8 +653,9 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img3}>
+                <LightgalleryItem src={location.tamanRyDj.img3}>
                   <Image
+                    key={uniqid}
                     src={location.tamanRyDj.img3}
                     alt={location.tamanRyDj.name}
                     width={600}
@@ -623,8 +666,9 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img4}>
+                <LightgalleryItem src={location.tamanRyDj.img4}>
                   <Image
+                    key={uniqid}
                     src={location.tamanRyDj.img4}
                     alt={location.tamanRyDj.name}
                     width={600}
@@ -635,8 +679,9 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img5}>
+                <LightgalleryItem src={location.tamanRyDj.img5}>
                   <Image
+                    key={uniqid}
                     src={location.tamanRyDj.img5}
                     alt={location.tamanRyDj.name}
                     width={600}
@@ -647,8 +692,9 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img6}>
+                <LightgalleryItem src={location.tamanRyDj.img6}>
                   <Image
+                    key={uniqid}
                     src={location.tamanRyDj.img6}
                     alt={location.tamanRyDj.name}
                     width={600}
@@ -659,8 +705,9 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img7}>
+                <LightgalleryItem src={location.tamanRyDj.img7}>
                   <Image
+                    key={uniqid}
                     src={location.tamanRyDj.img7}
                     alt={location.tamanRyDj.name}
                     width={600}
@@ -671,8 +718,9 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img8}>
+                <LightgalleryItem src={location.tamanRyDj.img8}>
                   <Image
+                    key={uniqid}
                     src={location.tamanRyDj.img8}
                     alt={location.tamanRyDj.name}
                     width={600}
@@ -683,8 +731,9 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img9}>
+                <LightgalleryItem src={location.tamanRyDj.img9}>
                   <Image
+                    key={uniqid}
                     src={location.tamanRyDj.img9}
                     alt={location.tamanRyDj.name}
                     width={600}
@@ -695,8 +744,9 @@ export function TamanRyDj() {
                 </LightgalleryItem>
               </div>
               <div className="w-full">
-                <LightgalleryItem key="uniqid" src={location.tamanRyDj.img10}>
+                <LightgalleryItem src={location.tamanRyDj.img10}>
                   <Image
+                    key={uniqid}
                     src={location.tamanRyDj.img10}
                     alt={location.tamanRyDj.name}
                     width={600}
@@ -713,3 +763,5 @@ export function TamanRyDj() {
     </section>
   );
 }
+
+console.log(uniqid());
